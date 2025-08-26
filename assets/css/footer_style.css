@@ -1,0 +1,125 @@
+.footer-area-wrapper {
+    background: linear-gradient(to right, white 70%, black 30%);
+    color: black;
+    padding: 60px 0 20px 0;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-widget-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-section {
+    width: 70%;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.right-section {
+    width: 30%;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-widget__logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-widget__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-widget__list li {
+    margin-bottom: 10px;
+}
+
+.footer-widget__list a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.footer-widget__list a:hover {
+    color: #666666;
+}
+
+.social-share-footer {
+    margin-top: 20px;
+}
+
+.footer-social-white {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-white li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-copyright-area {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.copyright-text {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-area-wrapper {
+        background: white;
+    }
+    
+    .left-section {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .right-section {
+        width: 100%;
+        background: black;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+          
+    .team-member-card {
+        margin-bottom: 15px;
+    }
+    .team-member-name {
+        font-size: 16px;
+    }
+    .team-member-role {
+        font-size: 12px;
+    }
+    .team-member-image {
+        max-width: 100px;
+    }
+}

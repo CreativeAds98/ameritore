@@ -1,0 +1,352 @@
+.images-thum img{
+    width: 1180px;
+}
+.clg-1{
+    width: 560px;
+}
+.clg-2{
+    width: 480px;
+    margin-bottom: 20px;
+}
+.clg-3{
+    width: 483px;
+    margin-left: -4px;
+}
+@media only screen and (max-width: 767px) {
+    
+    .img-hide-in-phone{
+        
+        display: none;
+        
+    }
+    
+    
+    .project-heading h4{
+        font-size: 18px;
+    }
+    .clg-1 {
+        width: 329px;
+        margin-bottom: 20px;
+    }
+    .clg-2 {
+        width: 329px;
+    }
+    .clg-3 {
+        width: 333px;
+        margin-left: -3px !important;
+    }
+    .fs-24 {
+        font-size: 18px !important;
+    }
+    .project-sub-title h5 {
+        font-size: 24px !important;
+    }
+    .project-title h2 {
+        font-size: 40px !important;
+    }
+    .get-quote-btn .btn {
+        padding: 10px 10px !important;
+        margin-top: 4px;
+        color: white;
+    }
+    .single-hero-slider-two a {
+        margin-top: -1px;
+        font-size: 11px;
+    }
+    .hero-slider-two .slick-dots, .hero-slider-12-active .slick-dots, .hero-slider-14-active .slick-dots{
+        bottom: 2px !important;
+    }
+    .hero-slider-content .btn{
+        padding: 14px 20px !important;
+        margin-left: -30px !important;
+    }
+    .real-estate__right a{
+        transform: rotate(90deg);
+    }
+    .bottom-border-primary::after{
+        left: 110px !important;
+    }
+    .header__logo .logo .img-fluid {
+        max-width: 170px !important;
+    }
+    .about-partner-logo-1 .slick-track{
+        margin-left: 0px !important;
+    }
+    .about-partner-logo-2 .slick-track{
+        margin-left: 0px !important;
+        margin-top: 0px !important;   
+    }
+    .schneider-electric-about {
+        margin-left: 0px !important;
+    }
+    .kone-about {
+        margin-left: 0px !important;
+    }
+    .ltea-about {
+        margin-left: 0px !important;
+    }
+}
+.space-bar{
+    display:block;clear:both;height:var(--ptf-xxl)
+}
+@media only screen and (max-width:1199px){
+    .space-bar{height:var(--ptf-xl,var(--ptf-xxl))
+    }
+}
+@media only screen and (max-width:1400px){
+    .space-bar{height:var(--ptf-xl,var(--ptf-xxl))
+    }
+}
+@media only screen and (max-width:991px){
+    .space-bar{height:var(--ptf-lg,var(--ptf-xl,var(--ptf-xxl)))
+    }
+}
+@media only screen and (max-width:767px){
+    .space-bar{height:var(--ptf-md,var(--ptf-lg,var(--ptf-xl,var(--ptf-xxl))))
+    }
+}
+@media only screen and (max-width:575px){
+    .space-bar{height:var(--ptf-sm,var(--ptf-md,var(--ptf-lg,var(--ptf-xl,var(--ptf-xxl)))))
+    }
+}
+.fs-24{
+    font-size: 22px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+.mt-m15{
+    margin-top: -15px;
+}
+.project-title h2{
+    font-size: 56px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.project-sub-title h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.fs-20{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+.project-item-list li i, .project-item-list li{
+    color: #000000 !important;
+}
+.get-quote-btn .btn{
+    border-radius: 5px;
+    font-size: 18px!important;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 35px;
+    background-color: #4241ff !important;
+    margin-top: 4px;
+}
+.metis{
+    width: 120px;
+}
+.ltea{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.tysonkrupp {
+    width: 120px;
+    margin-left: 48px;
+}
+.schneider-electric {
+    width: 120px;
+    margin-top: 38px;
+}
+.kone{
+    width: 120px;
+    margin-top: 15px;
+}
+.bew {
+    margin-top: 7px;
+}
+.dimensions{
+    width: 185px;
+    margin-top: 10px;
+}
+/* .peg-icon, .architectural-icon{
+    width: 250px;
+} */
+.slider-img-1{
+    background-image: url('..//images/project/side view.jpg') !important;
+    margin-top: 70px;
+}
+.slider-img-2{
+    background-image: url('..//images/project/VASANTH NAGAR.jpeg') !important;
+    margin-top: 70px;
+}
+.slider-img-3{
+    background-image: url('..//images/project/Front View.jpeg') !important;
+    margin-top: 70px;
+}
+.get-quote-btn .btn:hover{
+    background-color: #2424a5 !important;
+    color: white !important;
+}
+.btn:hover{
+    background-color: #2424a5 !important;
+    color: white !important;
+}
+.our_service_menu > a:before {
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: #4241ff;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.our_service_menu:hover > a:before, .our_service_menu.active > a:before {
+    width: 70% !important;
+    left: 18px !important;
+}
+.our_service_menu:hover > a:before, .our_service_menu.active > a:before {
+    width: 60%;
+    left: 16px;
+}
+.portfolio_menu > a:before {
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    background-color: #4241ff;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.portfolio_menu:hover > a:before, .portfolio_menu.active > a:before {
+    width: 65% !important;
+    left: 18px !important;
+}
+.portfolio_menu:hover > a:before, .portfolio_menu.active > a:before {
+    width: 60%;
+    left: 16px;
+}
+.contact_menu:hover > a:before, .contact_menu.active > a:before {
+    width: 60%;
+    left: 20px !important;
+}
+.home_menu:hover > a:before, .home_menu.active > a:before {
+    width: 50% !important;
+    left: 20px !important;
+}
+.fs-24{
+    color: #4241ff !important;
+    font-size: 28px !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+}
+.bottom-border-primary::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    height: 3px;
+    width: 107px;
+    background: #4241ff;
+    left: 365px;
+}
+.header__logo .logo .img-fluid{
+    max-width: 270px;
+}
+.footer-widget__logo .img-fluid{
+    max-width:250px;
+}
+.about-partner-logo-1 .slick-track{
+    margin-left: -20px;
+}
+.about-partner-logo-2 .slick-track{
+    margin-left: 100px;
+    margin-top: -25px;   
+}
+.schneider-electric-about {
+    width: 120px;
+    margin-top: 38px;
+    margin-left: 90px;
+}
+.kone-about {
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 160px;
+}
+.ltea-about {
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+
+/* Hide the dropdown by default */
+.menu-item-has-children .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the parent menu item */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visuals */
+    z-index: 1000;
+    padding: 10px 0;
+    list-style: none;
+    min-width: 200px; /* Optional: Set a minimum width */
+}
+
+/* Show the dropdown on hover */
+.menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+/* Style individual dropdown items */
+.sub-menu li {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+/* Style dropdown links */
+.sub-menu li a {
+    color: #333; /* Text color */
+    text-decoration: none;
+    display: block;
+}
+
+/* Add hover effect for dropdown links */
+.sub-menu li a:hover {
+    background-color: #f7f7f7; /* Background color on hover */
+    color: #007bff; /* Optional: Change text color on hover */
+}
+
+/* Ensure parent list items don't break layout */
+.menu-item-has-children {
+    position: relative;
+}
+
+/* Ensure the parent menu looks good */
+.navigation-menu > ul > li {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media (max-width: 568px) {
+
+    .mobile-not {
+        display: none ;
+    }
+
+   
+}
+
+.hover-style-link{
+    
+    text-transform: uppercase !important;
+    
+}
+
